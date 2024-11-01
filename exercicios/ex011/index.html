@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Mídias</title>
+</head>
+<body>
+  <h1>Imagens Dinamicas</h1>
+  <p>Tente abrir este site em vario dispositivos diferentes</p>
+  
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexivel">
+  </picture>
+  <h1>Reproduzindo Audio</h1>
+  <p>Ouve esse som irado ai mano</p>
+  <audio controls>
+    <source src="midia/boate-azul.mp3">
+    Seu navegador não tem suporte a audio
+  </audio>
+</body>
+</html>
